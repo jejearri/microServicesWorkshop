@@ -1,0 +1,6 @@
+server.port: 8081
+turbine:
+  aggregator:
+    clusterConfig: MICROEXPO,MICROBUSINESS
+  appConfig: microexpo,microbusiness
+  

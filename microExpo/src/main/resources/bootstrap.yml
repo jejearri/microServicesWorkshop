@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: microExpo
+  cloud:
+    config:
+      uri: http://localhost:8888 # optional    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    metadataMap:
+      instanceId: ${random.value}    

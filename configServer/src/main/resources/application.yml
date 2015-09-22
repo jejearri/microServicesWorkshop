@@ -1,0 +1,17 @@
+#used for native profile (config under filesystem)
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          searchLocations: classpath:/config
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:D:/workspace/test/configServer/src/main/resources/config
+
+server:
+  port: 8888

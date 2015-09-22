@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: microBusiness
+  cloud:
+    config:
+      uri: http://localhost:8888 # optional
+#      discovery:
+#        enabled: true
+#        serviceId: CONFIGSERVER
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    metadataMap:
+      instanceId: ${random.value}      
