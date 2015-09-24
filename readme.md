@@ -12,6 +12,9 @@ Serveur de config basé sur "Spring cloud config"
 MicroService de type "Business"
 
 **MicroExpo**  
-MicroService utilisé en frontal et utilisant microBusiness
+MicroService utilisé en frontal et utilisant microBusiness  
+
+**Zuul**  
+Reverse proxy
 
 > Written with [StackEdit](https://stackedit.io/).
