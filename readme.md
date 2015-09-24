@@ -8,7 +8,10 @@ Annuaire
 **ConfigServer**
 Serveur de config basé sur "Spring cloud config"
 
+**MicroBusiness**
+MicroService de type "Business"
 
-
+**MicroExpo**
+MicroService utilisé en frontal et utilisant microBusiness
 
 > Written with [StackEdit](https://stackedit.io/).
