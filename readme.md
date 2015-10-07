@@ -15,6 +15,8 @@ MicroService de type "Business"
 MicroService utilisé en frontal et utilisant microBusiness  
 
 **Zuul**  
-Reverse proxy
+Reverse proxy  
+
+![Overview](https://github.com/jejearri/microServicesWorkshop/blob/master/ms.jpg)
 
 > Written with [StackEdit](https://stackedit.io/).
